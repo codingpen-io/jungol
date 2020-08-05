@@ -12,7 +12,7 @@ b_count = 0  # b 송이로 사는게 유리한 경우의 수
 total_count = m - n + 1
 
 if a < c/b:
-    b_count = total_count
+    a_count = total_count
 else:
     for i in range(n, m+1):
         a_cost = i * a
